@@ -1,0 +1,13 @@
+.smileys {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.wrapper-emoji {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}

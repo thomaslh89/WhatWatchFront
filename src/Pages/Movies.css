@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+
+  position: relative;
+}
+.one-more {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  height: 40px;
+  width: 120px;
+  background-color: #ffcf00;
+  text-decoration: none;
+  border: none;
+}

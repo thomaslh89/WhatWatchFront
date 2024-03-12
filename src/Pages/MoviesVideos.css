@@ -1,0 +1,25 @@
+.yt-lite {
+  height: 300px;
+  width: 550px;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.video-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.video-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+  color: white;
+}
+.lty-playbtn {
+  border: 1px white solid;
+}
+.no-moviesvideos {
+  color: white;
+}

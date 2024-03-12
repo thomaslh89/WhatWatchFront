@@ -1,0 +1,28 @@
+.similar-container {
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+}
+.similar-image {
+  border-radius: 10px;
+}
+.similar-card {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  color: white;
+}
+.text-similar {
+  display: flex;
+  justify-content: space-between;
+}
+.similar-container::-webkit-scrollbar-track {
+  background: #0d2241; /* Couleur de fond de la piste de la barre de défilement */
+}
+.similar-container::-webkit-scrollbar-thumb {
+  background: lightgray; /* Couleur de la poignée de la barre de défilement */
+  border-radius: 15px; /* Bord arrondi de la poignée */
+}
+.similar-container::-webkit-scrollbar {
+  width: 10px; /* Largeur de la barre de défilement */
+}
