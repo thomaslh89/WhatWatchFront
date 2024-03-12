@@ -12,7 +12,7 @@ const MoviesProvider = () => {
       setisLoading(true);
       try {
         const response = await axios.get(
-          `http://site--whatwhatch--f5rrxgmqcwc8.code.run/movie/${id}/watchon`
+          `https://site--whatwhatch--f5rrxgmqcwc8.code.run/movie/${id}/watchon`
         );
         console.log(response.data);
         setData(response.data);

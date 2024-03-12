@@ -11,7 +11,7 @@ const WatchNow = () => {
       setIsLoading(true);
       try {
         const response = await axios.get(
-          `http://site--whatwhatch--f5rrxgmqcwc8.code.run/movies/${id}/watch`
+          `https://site--whatwhatch--f5rrxgmqcwc8.code.run/movies/${id}/watch`
         );
         setData(response.data);
       } catch (error) {

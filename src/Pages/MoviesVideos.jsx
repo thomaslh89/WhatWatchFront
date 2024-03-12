@@ -16,7 +16,7 @@ const MoviesVideo = () => {
       setIsLoading(true);
       try {
         const response = await axios.get(
-          `http://site--whatwhatch--f5rrxgmqcwc8.code.run/movie/${id}/trailer`
+          `https://site--whatwhatch--f5rrxgmqcwc8.code.run/movie/${id}/trailer`
         );
         setData(response.data); // Mise à jour de l'état avec les données reçues
       } catch (error) {

@@ -17,7 +17,7 @@ const Movies = () => {
     const fetchData = async () => {
       setIsLoading(true);
       try {
-        const url = `http://site--whatwhatch--f5rrxgmqcwc8.code.run/?genre_ids=${genre}&page=${page}`;
+        const url = `https://site--whatwhatch--f5rrxgmqcwc8.code.run/?genre_ids=${genre}&page=${page}`;
         const response = await axios.get(url);
         console.log(response.data.results);
         setMovies(response.data.results);
