@@ -18,7 +18,9 @@ const MoviesDetails = () => {
     const fetchData = async () => {
       setIsLoading(true);
       try {
-        const response = await axios.get(`http://localhost:4000/movies/${id}`);
+        const response = await axios.get(
+          `https://site--whatwhatch--f5rrxgmqcwc8.code.run/movies/${id}`
+        );
         setData(response.data); // Mise à jour de l'état avec les données reçues
       } catch (error) {
         console.error("Erreur lors de la récupération des données", error);
