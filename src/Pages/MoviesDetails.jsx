@@ -74,8 +74,11 @@ const MoviesDetails = () => {
                       backgroundColor: "#0D2241",
                     })}
                   />
-                  <p>Note des utilisateurs</p> <WatchNow id={id} />
-                  <MoviesProvider id={id} />
+                  <p>Note des utilisateurs</p>
+                  <div className="button-wrapper">
+                    <WatchNow id={id} />
+                    <MoviesProvider id={id} />
+                  </div>
                 </div>
 
                 <p className="tagline-details">{data.tagline}</p>

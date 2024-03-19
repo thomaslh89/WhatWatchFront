@@ -1,25 +1,140 @@
-.yt-lite {
-  height: 300px;
-  width: 550px;
-  display: flex;
-  border-radius: 10px;
-  margin-bottom: 20px;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .yt-lite {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .video-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    color: white;
+  }
+  .lty-playbtn {
+    border: 1px white solid;
+  }
+  .no-moviesvideos {
+    color: white;
+  }
 }
-.video-container {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .yt-lite {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .video-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    color: white;
+  }
+  .lty-playbtn {
+    border: 1px white solid;
+  }
+  .no-moviesvideos {
+    color: white;
+  }
 }
-.video-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: larger;
-  color: white;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .yt-lite {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .video-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    color: white;
+  }
+  .lty-playbtn {
+    border: 1px white solid;
+  }
+  .no-moviesvideos {
+    color: white;
+  }
 }
-.lty-playbtn {
-  border: 1px white solid;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .yt-lite {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .video-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    color: white;
+  }
+  .lty-playbtn {
+    border: 1px white solid;
+  }
+  .no-moviesvideos {
+    color: white;
+  }
 }
-.no-moviesvideos {
-  color: white;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .yt-lite {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .video-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    color: white;
+  }
+  .lty-playbtn {
+    border: 1px white solid;
+  }
+  .no-moviesvideos {
+    color: white;
+  }
 }
