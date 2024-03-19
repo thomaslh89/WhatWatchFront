@@ -1,32 +1,13 @@
-.Header {
-  display: flex;
-
-  justify-content: space-around;
-  align-items: center;
-  color: white;
-}
-
-.Header img {
-  height: 100px;
-  width: 300px;
-}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .Header {
+  .footer {
+    text-align: center;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
+    margin-top: 150px;
+  }
+  .footer a {
     color: white;
-    gap: 10px;
-  }
-  .Header img {
-    height: 100px;
-    width: 250px;
-  }
-  .Header p {
-    font-size: x-small;
+    text-decoration: none;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */

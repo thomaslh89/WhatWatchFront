@@ -1,5 +1,10 @@
+import "./Footer.css";
 const Footer = () => {
-  return <div>made with love by Thomas Le Hébel</div>;
+  return (
+    <div className="footer">
+      <a href="https://www.lehebel.com">Made by Thomas Le Hébel</a>
+    </div>
+  );
 };
 
 export default Footer;

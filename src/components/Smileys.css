@@ -1,13 +1,82 @@
-.smileys {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 10px;
-  margin-bottom: 40px;
-  width: 100%;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .smileys {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 70%;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .wrapper-emoji {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
 }
-.wrapper-emoji {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .smileys {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .wrapper-emoji {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .smileys {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .wrapper-emoji {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .smileys {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .wrapper-emoji {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .smileys {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .wrapper-emoji {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
 }
