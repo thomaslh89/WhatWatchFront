@@ -12,7 +12,7 @@ const MoviesProvider = () => {
       setisLoading(true);
       try {
         const response = await axios.get(
-          `https://site--whatwhatch--f5rrxgmqcwc8.code.run/movie/${id}/watchon`
+          `https://whatwhatch-api.lehebel.com/movie/${id}/watchon`
         );
         console.log(response.data);
         setData(response.data);

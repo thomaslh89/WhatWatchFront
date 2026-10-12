@@ -13,7 +13,7 @@ const Similar = () => {
       setIsLoading(true);
       try {
         const response = await axios.get(
-          `https://site--whatwhatch--f5rrxgmqcwc8.code.run/movies/${id}/similar`
+          `https://whatwhatch-api.lehebel.com/movies/${id}/similar`
         );
         setData(response.data); // Mise à jour de l'état avec les données reçues
       } catch (error) {

@@ -11,7 +11,7 @@ const WatchNow = () => {
       setIsLoading(true);
       try {
         const response = await axios.get(
-          `https://site--whatwhatch--f5rrxgmqcwc8.code.run/movies/${id}/watch`
+          `https://whatwhatch-api.lehebel.com/movies/${id}/watch`
         );
         setData(response.data);
       } catch (error) {
